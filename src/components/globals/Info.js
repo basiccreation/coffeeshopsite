@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import Title from "../Globals/Title"
+
 export default function info() {
   return (
     <section className="py-5">
       <div className="container">
+        <Title title="our story" />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center" />
 
@@ -30,7 +33,7 @@ export default function info() {
             annoying.
           </p>
           <Link to="/about/">
-            <button className="btn text-uppercase btn-yellow">
+            <button className="btn  text-uppercase btn-yellow">
               about page
             </button>
           </Link>
