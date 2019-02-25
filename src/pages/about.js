@@ -15,7 +15,6 @@ const AboutPage = ({ data }) => (
       styleClass="about-background"
     />
     <Info />
-    <Link />
   </Layout>
 )
 

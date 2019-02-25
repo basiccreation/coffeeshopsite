@@ -15,7 +15,13 @@ const IndexPage = ({ data }) => (
       styleClass="default-background"
     />
     <Info />
-    <Link />
+    <div className="container">
+      <Link to="/about/">
+        <button className="btn mb-5 text-uppercase btn-yellow">
+          about page
+        </button>
+      </Link>
+    </div>
   </Layout>
 )
 

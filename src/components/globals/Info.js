@@ -32,11 +32,6 @@ export default function info() {
             apparent reason, meow to be let in lick the curtain just to be
             annoying.
           </p>
-          <Link to="/about/">
-            <button className="btn  text-uppercase btn-yellow">
-              about page
-            </button>
-          </Link>
         </div>
       </div>
     </section>
