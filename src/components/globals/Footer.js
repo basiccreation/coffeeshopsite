@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Footer() {
   return (
-    <footer className="footer py-3">
+    <Footer className="footer py-3">
       <div className="container">
         <div className="row">
           <div className="col-10 mx-auto col-md-6 textyellow text-center text-capitalize">
@@ -12,6 +12,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+    </Footer>
   )
 }
